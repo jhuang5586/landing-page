@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 10%;
+}
+
+nav img {
+  width: 30px;
+}
+
+.nav-links {
+  flex: 1;
+  text-align: right;
+}
+
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+
+.nav-links ul li a {
+  color: #e5e7eb;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.hero {
+  width: 80%;
+  margin: auto;
+}
+
+.row {
+  margin-top: 7%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-col {
+  flex-basis: 48%;
+  padding: 30px 2px;
+}
+
+.header-col img {
+  width: 100%;
+}
+
+.header-col h1 {
+  font-size: 48px;
+  font: bold;
+  color: #f9faf8;
+  padding-top: 0;
+}
+
+.header-col p {
+  color: #e5e7eb;
+  font-size: 18px;
+  padding: 15px 0 25px;
+}
+
+.hero-btn {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #3882f6;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* ------------features----------- */
+
+.features {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.features h1 {
+  font-size: 36px;
+  color: #1f2937;
+}
+
+.features-col {
+  flex-basis: 23%;
+  margin-bottom: 5%;
+}
+
+.features-col img {
+  width: 100%;
+  border-radius: 10px;
+  border: 5px solid #3882f6;
+}
+
+.features-col p {
+  color: #1f2937;
+  font-size: 18px;
+  padding: 15px 0 25px;
+}
+
+.quote p {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+/* ---------------quote------------ */
+.quote {
+  background-color: #e5e7eb;
+}
+
+.quote div {
+  width: 80%;
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.quote h3 {
+  text-align: right;
+  padding-top: 20px;
+}
+
+/* -----------------cta-------------- */
+
+.cta {
+  width: 80%;
+  margin: auto;
+  background-color: #3882f6;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.cta-col {
+  /* border: 1px solid pink; */
+  padding: 30px 60px;
+  flex-basis: 48%;
+  text-align: left;
+  justify-content: center;
+}
+
+.cta h3 {
+  color: #e5e7eb;
+}
+
+.cta p {
+  color: #e5e7eb;
+}
+
+.cta-btn {
+  border: 2px solid #e5e7eb;
+}
+
+#cta-btn {
+  text-align: right;
+}
+
+/* ------footer------ */
+.footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  text-align: center;
+  padding: 30px;
+}
